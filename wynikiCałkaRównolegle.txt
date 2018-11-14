@@ -1,0 +1,19 @@
+Liczba watkow : 1
+Poczatek tworzenia watkow
+suma = 1.999342
+Czas obliczen = 0.000165
+
+Liczba watkow : 2
+Poczatek tworzenia watkow
+suma = 1.999342
+Czas obliczen = 0.000244
+
+Liczba watkow : 4
+Poczatek tworzenia watkow
+suma = 2.021202
+Czas obliczen = 0.000277
+
+Liczba watkow : 8
+Poczatek tworzenia watkow
+suma = 2.046003
+Czas obliczen = 0.000391

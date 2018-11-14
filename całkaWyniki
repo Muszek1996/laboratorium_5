@@ -1,0 +1,47 @@
+Wynik całki dla N:100, dx:0.031416, wynik: 1.999836
+czas standardowy = 0.000107
+czas CPU         = 0.000000
+czas zegarowy    = 0.000101
+
+Wynik całki dla N:100000, dx:0.000031, wynik: 2.000000
+czas standardowy = 0.003694
+czas CPU         = 0.003693
+czas zegarowy    = 0.003689
+
+Wynik całki dla N:1000000, dx:0.000003, wynik: 2.000000
+czas standardowy = 0.044995
+czas CPU         = 0.042831
+czas zegarowy    = 0.044987
+
+Po optymalizacji :
+Wynik całki dla N:100, dx:0.031416, wynik: 1.999836
+czas standardowy = 0.000099
+czas CPU         = 0.000000
+czas zegarowy    = 0.000094
+
+Wynik całki dla N:100000, dx:0.000031, wynik: 2.000000
+czas standardowy = 0.002667
+czas CPU         = 0.002667
+czas zegarowy    = 0.002663
+
+Wynik całki dla N:1000000, dx:0.000003, wynik: 2.000000
+czas standardowy = 0.022006
+czas CPU         = 0.021016
+czas zegarowy    = 0.022006
+
+Po wyciągnięciu operacji mnożenia z pętli for:
+
+Wynik całki dla N:100, dx:0.031416, wynik: 1.999836
+czas standardowy = 0.000098
+czas CPU         = 0.000013
+czas zegarowy    = 0.000092
+
+Wynik całki dla N:100000, dx:0.000031, wynik: 2.000000
+czas standardowy = 0.002246
+czas CPU         = 0.002245
+czas zegarowy    = 0.002242
+
+Wynik całki dla N:1000000, dx:0.000003, wynik: 2.000000
+czas standardowy = 0.021847
+czas CPU         = 0.021848
+czas zegarowy    = 0.021846

@@ -1,0 +1,47 @@
+Liczba watkow : 1
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen = 0.258977
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen (no mutex) = 0.258612
+
+Liczba watkow : 2
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen = 0.136249
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen (no mutex) = 0.303540
+
+Liczba watkow : 3
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen = 0.092154
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen (no mutex) = 0.398037
+
+Liczba watkow : 4
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen = 0.070563
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen (no mutex) = 0.467988
+
+Liczba watkow : 6
+Poczatek tworzenia watkow
+suma = 49999997.500000
+Czas obliczen = 0.067839
+Poczatek tworzenia watkow
+suma = 49999997.500000
+Czas obliczen (no mutex) = 0.300735
+
+Liczba watkow : 8
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen = 0.060421
+Poczatek tworzenia watkow
+suma = 50000000.500000
+Czas obliczen (no calkaMutex) = 0.285607
