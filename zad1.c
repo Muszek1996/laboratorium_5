@@ -13,19 +13,17 @@ double f(double x){
     return sin(x);
 }
 
-
 double integral(double a, double b, int N) {
     double x1 = a;
+    double x2;
     double c = 0.0;
     double dx = (b - a) / N;
 
     double fx1 = f(x1);
-
+    double fx2;
     for (int i = 0; i < N; i++) {
-
-
-        double x2 = x1 + dx;
-        double fx2 = f(x2);
+        x2 = x1 + dx;
+        fx2 = f(x2);
         c += (fx1 + fx2);
         fx1= fx2;
         x1 = x2;
@@ -34,6 +32,7 @@ double integral(double a, double b, int N) {
 
     printf("Wynik całki dla N:%d, dx:%f, wynik: %f\n",N,dx,c);
 }
+
 
 
 

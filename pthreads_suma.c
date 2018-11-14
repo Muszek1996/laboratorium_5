@@ -118,7 +118,6 @@ int main( int argc, char *argv[] ){
 
 void *calkaMutex(void *arg_wsk){
 
-
     int i, j, moj_id;
 
     double moja_suma=0;
@@ -132,10 +131,15 @@ void *calkaMutex(void *arg_wsk){
     double my_end = (moj_id+1)*dx * j;
     if(my_end > M_PI) my_end = M_PI;
 
-    for(double k=my_start;k<my_end;k+=dx){
-        moja_suma += 0.5*dx*(f(k)+f(k+dx));
-    }
+    double fk1 = f(my_start);
+    double fk2;
 
+    for(double k=my_start;k<my_end;k+=dx){
+        fk2 = f(k+dx);
+        moja_suma += (fk1+fk2);
+        fk1 = fk2;
+    }
+    moja_suma*= 0.5*dx;
     pthread_mutex_lock( &muteks );
     suma += moja_suma;
     pthread_mutex_unlock( &muteks );
